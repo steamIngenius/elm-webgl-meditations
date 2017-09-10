@@ -1,0 +1,20 @@
+{
+  "name": "elm-gl-test",
+  "version": "1.0.0",
+  "description": "Learning GLSL and using WebGL with Elm.",
+  "main": "public/elm.js",
+  "scripts": {
+    "start": "elm-live src/elm/Main.elm --output=public/elm.js --dir=public --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elm",
+    "webgl",
+    "glsl"
+  ],
+  "author": "micah",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-live": "^2.7.5"
+  }
+}
