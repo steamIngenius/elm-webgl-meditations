@@ -4,7 +4,7 @@
   "description": "Learning GLSL and using WebGL with Elm.",
   "main": "public/elm.js",
   "scripts": {
-    "start": "elm-live src/elm/Main.elm --output=public/elm.js --dir=public --open",
+    "start": "elm-live src/elm/Main.elm --output=public/elm.js --dir=public --open -- --warn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
